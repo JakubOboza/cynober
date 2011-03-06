@@ -1,0 +1,17 @@
+{application, cynober,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {modules, [
+    boobshake_app,
+    boobshake_sup,
+    estimator
+    ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { cynober_app, []}},
+  {env, []}
+ ]}.
